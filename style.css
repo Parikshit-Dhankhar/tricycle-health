@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    border: border-box;
+}
+
+#navbar{
+    height: 60px;
+    background-color: white;
+    padding: 10px 22px;
+}
+
+#logo{
+    background-image:url(./logo/tricycle-health-high-resolution-logo.png);
+    height: 60px;
+    width: 130px;   
+}
+
+button{
+    background-color: rgb(154, 255, 2);
+    font-size: 19px;
+    border: 10px solid rgb(154, 255, 2);
+    border-radius: 50px;
+}
+
+
+a {
+    font-size: 25px;
+    line-height: 20px;
+    margin-right: 75px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#centrebox{
+    height:680px;
+    width:628px;
+    border:20px solid white;
+    padding: 20px;
+}
+
+h1{
+    height: 190px;
+    width: 550px;
+    color: black;
+    font-size: 48px;
+    font-style: georgia;
+    font-weight: 510;
+    padding-left: 120px;
+}
+
+p{
+    height: 120px;
+    width: 550px;
+    font-size: 25px;
+    font-style: arial;
+    color: black;
+    padding-left: 130px;
+}
+
+#img{
+    height: 500px;
+    width: 500px;
+    background-image: url(./logo/tricycle\ web\ img.webp);
+    background-size: cover;
+    position: absolute;
+    bottom: 80px;
+    right: 140px;
+}
+
+.check-items{
+    p{
+    height: 55px;
+    width: 400px;
+    font-size: 20px;
+    }
+    button{
+        margin-left: 125px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    button:hover {
+       
+    }
+}
+
